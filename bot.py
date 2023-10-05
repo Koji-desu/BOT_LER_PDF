@@ -26,7 +26,7 @@ def lerPDF(arquivo):
     dados.append([value_date, value_contact, value_bill_to, value_balance_due])
 
 
-arquivos = pathlib.Path(r"C:\Users\Administrator\PycharmProjects\PythonBOTS\lerPDF\docs\docs").glob('*.pdf')
+arquivos = pathlib.Path(r"C:\Users\Administrator\PycharmProjects\PythonBOTS\lerPDF\BOT_LER_PDF\docs\docs").glob('*.pdf')
 
 for arquivo in arquivos:
     lerPDF(arquivo)
